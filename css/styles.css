@@ -3,20 +3,22 @@ body {
 	background-color: #A8A8A8;
 	background-size: cover;
 	background-attachment: fixed;
-	font-family: actor;
+	font-family: 'Zilla Slab', serif;
 	font-style: normal;
 	font-weight: 400;
 	height: 100%;
 }
 h1 {
-	font-family: chunk;
+	font-family: 'Pacifico', cursive;
 	font-style: normal;
 	font-weight: 400;
 	font-size: 2em;
 	text-align: center;
+	color: #FFFFFF;
+	text-shadow: 3px 0px 4px #000000;
 }
 h2 {
-	font-family: chunk;
+	font-family: 'Pacifico', cursive;
 	font-style: normal;
 	font-weight: 400;
 	font-size: 1.5em;
@@ -94,8 +96,46 @@ nav {
 	background-color: #3EC7B4;
 }
 .container-fluid .navbar-header .navbar-brand {
-	font-family: chunk;
+	font-family: 'Pacifico', cursive;
 	font-style: normal;
 	font-weight: 400;
 	color: #2A9889;
+}
+
+@media (max-width: 650px){
+.asideLeft {
+	width: 90%;
+	float: none;
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-top: 30px;
+}
+.sectionRight {
+	width: 90%;
+	float: none;
+	margin-right: 5%;
+	margin-top: 30px;
+	margin-left: 5%;
+}
+body {
+	background-image: url(../images/bkgd.jpg);
+	background-color: #A8A8A8;
+	background-size: cover;
+	background-attachment: fixed;
+	font-family: 'Zilla Slab', serif;
+	font-style: normal;
+	font-weight: 400;
+	height: 100%;
+}
+h1 {
+	font-family: 'Pacifico', cursive;
+	font-style: normal;
+	font-weight: 400;
+	font-size: 2em;
+	text-align: center;
+}
+header {
+	text-align: center;
+	padding-top: 30px;
+}
 }
