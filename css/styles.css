@@ -1,5 +1,5 @@
 body {
-	background-image: url(../images/bkgd.jpg);
+	background-image: url(../images/portfolio.jpeg);
 	background-color: #A8A8A8;
 	background-size: cover;
 	background-attachment: fixed;
@@ -12,7 +12,7 @@ h1 {
 	font-family: 'Pacifico', cursive;
 	font-style: normal;
 	font-weight: 400;
-	font-size: 2em;
+	font-size: 2.5em;
 	text-align: center;
 	color: #FFFFFF;
 	text-shadow: 3px 0px 4px #000000;
@@ -99,7 +99,7 @@ nav {
 	font-family: 'Pacifico', cursive;
 	font-style: normal;
 	font-weight: 400;
-	color: #2A9889;
+	color: #838383;
 }
 
 @media (max-width: 650px){
@@ -116,16 +116,17 @@ nav {
 	margin-right: 5%;
 	margin-top: 30px;
 	margin-left: 5%;
+	margin-bottom: 50px;
 }
 body {
-	background-image: url(../images/bkgd.jpg);
-	background-color: #A8A8A8;
+	background-color: grey;
 	background-size: cover;
 	background-attachment: fixed;
 	font-family: 'Zilla Slab', serif;
 	font-style: normal;
 	font-weight: 400;
 	height: 100%;
+	font-size: large;
 }
 h1 {
 	font-family: 'Pacifico', cursive;
@@ -138,4 +139,8 @@ header {
 	text-align: center;
 	padding-top: 30px;
 }
+body footer {
+}
+
+
 }
